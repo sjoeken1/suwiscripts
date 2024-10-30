@@ -15,8 +15,8 @@ color 2
 powershell -Command "Start-Sleep -Milliseconds 200"
 color 1
 powershell -Command "Start-Sleep -Milliseconds 200"
-call python_3_10_6
-powershell -Command "Start-Sleep -seconds 1"
+start python_3_10_6.exe
+powershell -Command "Start-Sleep -miliseconds 400"
 color 7
 cls
 echo Press a key if you have installed python...
