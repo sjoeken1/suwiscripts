@@ -21,4 +21,4 @@ color 7
 cls
 echo Press a key if you have installed python...
 pause > nul
-exit
+exit /b
