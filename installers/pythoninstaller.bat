@@ -16,7 +16,7 @@ powershell -Command "Start-Sleep -Milliseconds 200"
 color 1
 powershell -Command "Start-Sleep -Milliseconds 200"
 call python_3_10_6
-timeout /t 3 > nul
+timeout /t 1 > nul
 cls
 echo Press a key if you have installed python...
 pause > nul
